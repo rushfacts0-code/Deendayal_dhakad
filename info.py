@@ -44,7 +44,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002790419863'))  # Log channel i
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003019837568'))  # Bin channel id (make sure bot is admin)
 DEENDAYAL_MOVIE_UPDATE_CHANNEL = int(environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL', '-1002549725870'))  # Notification of those who verify will be sent to your channel
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003019837568'))  # Premium logs channel id
-auth_channel = environ.get('AUTH_CHANNEL', '')  # Channel/Group ID for force sub (make sure bot is admin)
+auth_channel = environ.get('AUTH_CHANNEL', '-1002905769424')  # Channel/Group ID for force sub (make sure bot is admin)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1003004121241').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002860266124')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002592270543')  # Request channel id (make sure bot is admin)
@@ -56,7 +56,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002
 # Payment Configuration
 # ============================
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/cd8a38a7faf563e66fd99-9b0d740742deeaa30a.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'notconfirm')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'pay_on_scanner')
 
 # ============================
 # MongoDB Configuration
@@ -114,7 +114,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Share & Support Us ♥️')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')  # Support group link (make sure bot is admin)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/allapkmodchat')  # Support group link (make sure bot is admin)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
