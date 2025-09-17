@@ -62,8 +62,8 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'pay_on_scanner')
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rishubhai2:Rishubhai2@rishubhai2.gefsdls.mongodb.net/?retryWrites=true&w=majority&appName=Rishubhai2")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rishubhai2")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Rishubots099909:<Rishubots099909@rishubots099909.d0fti7v.mongodb.net/?retryWrites=true&w=majority&appName=Rishubots099909")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
 
 # ============================
